@@ -4,3 +4,5 @@
     - name: pause for a moment
       pause:
          prompt: "presss enter to continue"
+    - debug:
+        msg: "you reached beyond pause"
