@@ -1,0 +1,6 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: pause for a moment
+      pause:
+         prompt: "presss enter to continue"
